@@ -1,7 +1,13 @@
 .jumbotron {
   background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true");
   color: #fff;
+  padding: 100px 25px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: none
 }
 .logo{
   background-color: #fff;
+  max-width: 100%;
+  height: auto;
 }
