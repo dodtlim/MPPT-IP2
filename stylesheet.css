@@ -1,11 +1,36 @@
-.jumbotron {
+.jumbotron{
   background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/backgrounds/landing.jpg?raw=true");
-  color: #fff;
-  padding: 100px 25px;
-  background-repeat: no-repeat;
-  background-size: auto;
-  border: none
+  background-size: cover;
+  background: contain;
+  padding: 120px 30px;
+  width: 100%;
+  height: 636px;
+  color: #ffffff;
+  max-width:1400px;
+  font-family: 'Bitter', serif;
 }
+.container-fluid{
+  padding: 60px 50px;
+}
+#row1{
+  background-color: #f2f2f2;
+}
+}
+#row2{
+  background-color: #ff6600;
+}
+#col2{
+  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/breakfast.jpg?raw=true");
+}
+}
+#col3{
+  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/lunch.jpg?raw=true");
+}
+}
+#col4{
+  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/dinner2.jpg?raw=true");
+}
+
 .logo{
   background-color: #fff;
   max-width: 100%;
