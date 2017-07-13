@@ -10,15 +10,18 @@
   background-color: #ff6600;
 }
 #col2{
-  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/breakfast.jpg?raw=true");
+  background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/breakfast.jpg?raw=true");
 }
 }
 #col3{
-  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/lunch.jpg?raw=true");
+  background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/lunch.jpg?raw=true");
 }
 }
 #col4{
-  background-image: image("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/dinner2.jpg?raw=true");
+  background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/foodtop/dinner2.jpg?raw=true");
+}
+#section4{
+  background-image: url("https://github.com/dodtlim/MPPT-IP2/blob/master/ip2/assets/backgrounds/foodsBg.jpg?raw=true");
 }
 
 .logo{
