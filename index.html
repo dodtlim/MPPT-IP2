@@ -180,20 +180,24 @@
        <div id="col8" class="row">
          <div class="col-sm-12">
            <div class="container"
-           <ul class="nav nav-tabs">
+           <ul class="nav nav-tabs" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+    <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">profile</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">buzz</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
+    <a class="nav-link" href="#references" role="tab" data-toggle="tab">references</a>
   </li>
 </ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane fade in active" id="profile">...</div>
+  <div role="tabpanel" class="tab-pane fade" id="buzz">bbb</div>
+  <div role="tabpanel" class="tab-pane fade" id="references">ccc</div>
+</div>
   </div>
          </div>
        </div>
