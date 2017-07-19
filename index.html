@@ -86,6 +86,81 @@
       color: black;
       font-family: 'Noto Serif', serif;
           }
+          .carousel{
+    background: #fff;
+    margin-top: 0;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+
+body {padding:3%;background:#fff}
+
+.panel-heading {
+    padding: 0
+}
+.panel-heading a {
+    display: block;
+    padding: 20px 20px;
+}
+.panel-heading a.collapsed {
+    background: #fff
+}
+.panel-heading a {
+    background: #fff;
+    border-radius: 10px;
+}
+.panel-heading a:after {
+    content: '-'
+}
+.panel-heading a.collapsed:after {
+    content: '+'
+}
+.nav.nav-tabs li a,
+.nav.nav-tabs li.active > a:hover,
+.nav.nav-tabs li.active > a:active,
+.nav.nav-tabs li.active > a:focus {
+    border-bottom-width: 0px;
+    outline: none;
+}
+.nav.nav-tabs li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tab-pane {
+    background: #fff;
+    padding: 10px;
+    border: none;
+    margin-top: -1px;
+}
+
+
+
+/* used for sidebar tab/collapse*/
+@media (max-width: 991px) {
+  .visible-tabs {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .visible-tabs {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-tabs {
+    display: none !important;
+  }
+}
+
       
         </style>
 </head>
