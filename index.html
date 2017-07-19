@@ -186,16 +186,63 @@
 <hr>
        <div id="col8" class="row">
          <div class="col-sm-12">
-           <div id="tab1" class="container">
-  <ul   class="nav nav-tabs nav text-center">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">Menu 1</a></li>
-    <li><a href="#">Menu 2</a></li>
-    <li><a href="#">Menu 3</a></li>
-  </ul>
-  <br>
-  <p><strong>Note:</strong> This example shows how to create a basic navigation tab. It is not toggleable/dynamic yet (you can't click on the links to display different content)- see the last example in the Bootstrap Tabs and Pills Tutorial to find out how this can be done.</p>
+           <div class="container">
+        
+         <div class="row">
+           
+            <div class="col-sm-12">
+              
+              
+              
+             <!--begin tabs going in narrow content -->
+               <ul class="nav nav-tabs sidebar-tabs" id="sidebar" role="tablist">
+                  <li class="active"><a href="#tab-1" role="tab" data-toggle="tab">Fast Foods</a></li>
+                  <li><a href="#tab-2" role="tab" data-toggle="tab">Drinks</a></li>
+                  <li><a href="#tab-3" role="tab" data-toggle="tab">Chicken</a></li>
+                  <li><a href="#tab-4" role="tab" data-toggle="tab">Rice</a></li>
+               </ul><!--/.nav-tabs.sidebar-tabs -->
+               <!-- Tab panes -->
+               <div class="tab-content">
+                  <div class="tab-pane active" id="tab-1">
+                    <div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="img-responsive" src="/ip2/assets/fastfood/beefBurger.jpg" alt="First Slide">
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="/ip2/assets/fastfood/chickenBurger.jpg" alt="Second Slide">
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="/ip2/assets/fastfood/chickenPizza.jpg" alt="Third Slide">
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
 </div>
+                  </div><!--/.tab-pane -->
+                  <div class="tab-pane" id="tab-2">
+                     
+                  </div><!--/.tab-pane -->
+                  <div class="tab-pane" id="tab-3">
+                     
+                  </div><!--/.tab-pane -->
+               </div><!--/.tab-content -->
+              
+            </div> <!--/.col-sm-12 -->
          </div>
        </div>
 
